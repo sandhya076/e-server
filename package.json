@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "Index.js",
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "react-redux": "^8.0.2",
+    "react-stripe-checkout": "^2.6.3",
+    "redux-persist": "^6.0.0",
+    "stripe": "^9.12.0",
+    "toolkit": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhya076/TRADITIONAL_EMART_SERVER.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandhya076/TRADITIONAL_EMART_SERVER/issues"
+  },
+  "homepage": "https://github.com/sandhya076/TRADITIONAL_EMART_SERVER#readme",
+  "description": ""
+}
